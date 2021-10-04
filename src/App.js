@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
 import HolaMundo, {AdiosMundo} from './components/HolaMundo';
+import Saludo from './components/Saludo';
 
 function App() {
   const [date, setDate] = useState(null);
@@ -53,6 +54,7 @@ function App() {
       <p>{date ? date : 'Loading date...'}</p>
       <HolaMundo />
       <AdiosMundo />
+      <Saludo />
     </main>
   );
 }
