@@ -4,7 +4,7 @@ export default function HolaMundo(){
 
   const miFuncion = () =>{
     console.log("Mi funcion");
-  }
+  };
   
   return(
     <div>
