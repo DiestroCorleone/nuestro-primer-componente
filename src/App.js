@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
+import HolaMundo from './components/HolaMundo';
 
 function App() {
   const [date, setDate] = useState(null);
@@ -50,6 +51,7 @@ function App() {
       <br />
       <h2>The date according to Go is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
+      <HolaMundo />
     </main>
   );
 }
