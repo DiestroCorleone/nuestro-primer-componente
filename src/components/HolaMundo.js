@@ -9,3 +9,11 @@ export default function HolaMundo(){
     </div>
   )
 }
+
+export function AdiosMundo(){
+  return(
+    <div>
+      <h3>Adios</h3>
+    </div>
+  )
+}
