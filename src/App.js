@@ -54,7 +54,7 @@ function App() {
       <p>{date ? date : 'Loading date...'}</p>
       <HolaMundo />
       <AdiosMundo />
-      <Saludar />
+      <Saludar name="Diestro Corleone" />
     </main>
   );
 }
