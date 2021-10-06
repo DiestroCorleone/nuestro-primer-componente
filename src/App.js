@@ -15,7 +15,7 @@ function App() {
     <main>
       <HolaMundo />
       <AdiosMundo />
-      <Saludar name={userName} edad={edad} />
+      <Saludar userInfo={user} />
     </main>
   );
 }
