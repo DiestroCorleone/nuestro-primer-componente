@@ -9,7 +9,7 @@ function App() {
     <main>
       <HolaMundo />
       <AdiosMundo />
-      <Saludar name="Diestro Corleone" />
+      <Saludar name="Diestro Corleone" edad="32" />
     </main>
   );
 }
